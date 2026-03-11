@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V. Rakesh Varma | Portfolio</title>
+    <meta name="description" content="Portfolio of V. Rakesh Varma, Computer Science undergraduate interested in full stack development and cybersecurity.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar">
+        <div class="logo">RV<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero fade-in">
+            <div class="hero-content">
+                <h2 class="greeting">Hello, I'm</h2>
+                <h1 class="name">V. Rakesh Varma</h1>
+                <p class="role">Full Stack Developer & Cybersecurity Enthusiast</p>
+                
+                <div class="contact-info">
+                    <a href="mailto:rakeshvarmaa24@gmail.com"><i class="fas fa-envelope"></i> rakeshvarmaa24@gmail.com</a>
+                    <a href="tel:+917093060553"><i class="fas fa-phone"></i> 7093060553</a>
+                    <span class="location"><i class="fas fa-map-marker-alt"></i> Hyderabad, TS, India</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">Discover My Work</a>
+                </div>
+            </div>
+            
+            <div class="hero-image-container">
+                <div class="hero-image-wrapper">
+                    <!-- Added profile.jpg to be replaced by the user's photo -->
+                    <img src="profile.jpg" alt="V. Rakesh Varma" class="hero-image" id="profile-pic" onerror="this.src='https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=400&h=400&auto=format&fit=crop'">
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Summary -->
+        <section id="about" class="section glass-card slide-up">
+            <div class="section-header">
+                <h2><i class="fas fa-user-alt"></i> Professional Summary</h2>
+            </div>
+            <p>Computer Science undergraduate interested in full stack development and cybersecurity. Completed a Cybersecurity Virtual Internship with AICTE- Eduskills, gaining experience in network security, vulnerability assessment, and ethical hacking. Skilled in programming and web technologies with a passion for building secure and scalable web applications.</p>
+            
+            <div class="skills-grid mt-4">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">C</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & Machine Learning</h3>
+                    <div class="tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">Matplotlib</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Computer Science</h3>
+                    <div class="tags">
+                        <span class="tag">Data Structures & Algorithms</span>
+                        <span class="tag">DBMS</span>
+                        <span class="tag">Operating Systems</span>
+                        <span class="tag">Computer Networks</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section glass-card slide-up">
+            <div class="section-header">
+                <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Palo Alto Cybersecurity Virtual Internship</h3>
+                        <p class="timeline-date">April 2025 – June 2025</p>
+                        <ul class="task-list">
+                            <li>Gained practical knowledge of cybersecurity concepts including network security, cryptography, ethical hacking, and incident response.</li>
+                            <li>Performed network security configuration using firewalls, VPNs, and intrusion detection systems.</li>
+                            <li>Conducted vulnerability assessments and penetration testing using tools such as Kali Linux, Nmap, Metasploit, and Burp Suite.</li>
+                            <li>Implemented encryption and data protection techniques using cryptographic algorithms to secure sensitive data.</li>
+                            <li>Simulated cyber incident response scenarios to detect, analyze, and mitigate security threats.</li>
+                            <li>Configured secure cloud environments and applied security best practices for protecting cloud infrastructure.</li>
+                            <li>Explored emerging cybersecurity trends including AI-driven security systems and IoT security.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section glass-card slide-up">
+            <div class="section-header">
+                <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>CampusXchange</h3>
+                        <span class="badge">In Progress</span>
+                    </div>
+                    <p class="project-subtitle">Full-Stack Web Application</p>
+                    <div class="tech-stack">
+                        <span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+                    </div>
+                    <ul class="task-list">
+                        <li>Designing and developing a deployable campus-wide platform for organizing and accessing academic resources.</li>
+                        <li>Implemented automated file categorization using subject, semester, and metadata-based tagging.</li>
+                        <li>Built a searchable and filterable resource library to improve discoverability of notes and past papers.</li>
+                        <li>Architected structured storage with authentication and scalable backend design.</li>
+                    </ul>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>EDA on Loan Default Risk</h3>
+                    </div>
+                    <p class="project-subtitle">Exploratory Data Analysis</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+                    </div>
+                    <ul class="task-list">
+                        <li>Performed EDA on a loan dataset to identify key factors influencing loan approval and default risk.</li>
+                        <li>Cleaned and preprocessed data by handling missing values and feature inconsistencies.</li>
+                        <li>Analyzed relationships between income, credit history, and loan amount to uncover risk patterns.</li>
+                        <li>Visualized borrower attributes against loan status to generate actionable insights.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Container -->
+        <div class="two-col-grid">
+            <!-- Education -->
+            <section id="education" class="section glass-card slide-up">
+                <div class="section-header">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                </div>
+                <div class="education-item">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p class="institution">MVSR Engineering College, Hyderabad</p>
+                    <div class="edu-meta">
+                        <span class="date">2023 - 2027</span>
+                        <span class="grade">CGPA: 8.56 / 10.0</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certifications -->
+            <section class="section glass-card slide-up">
+                <div class="section-header">
+                    <h2><i class="fas fa-certificate"></i> Certifications</h2>
+                </div>
+                <ul class="cert-list">
+                    <li>
+                        <strong>Linux Essentials</strong> - Cisco Networking Academy
+                        <p>Gained hands-on understanding of Linux commands, file systems, process management, and shell scripting.</p>
+                    </li>
+                    <li>
+                        <strong>Java Programming</strong> - Oracle Academy
+                        <p>Built strong foundations in object-oriented programming, exception handling, and collections.</p>
+                    </li>
+                    <li>
+                        <strong>Database Programming with SQL</strong> - Oracle Academy
+                        <p>Developed proficiency in relational databases, complex queries, joins, and aggregations.</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 V. Rakesh Varma. Designed with modern aesthetics.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
